@@ -1,0 +1,25 @@
+{
+   "name": "kado/kado.io.vfs",
+   "type": "library",
+   "description": "Virtual file system library.",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Sweet Andi"
+      }
+   ],
+   "require": {
+      "php": ">=8.3",
+      "kado/kado.core": "^1.0",
+      "ext-mbstring": "*"
+   },
+   "require-dev": {
+      "phpunit/phpunit": "12.5.14",
+      "mockery/mockery": "1.6.12"
+   },
+   "autoload": {
+      "psr-4": {
+         "Kado\\IO\\Vfs\\": "src/"
+      }
+   }
+}
